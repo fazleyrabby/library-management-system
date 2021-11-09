@@ -1,0 +1,138 @@
+@font-face {
+    font-family:"Carter One";
+    src: url("../fonts/Carter_One/CarterOne.ttf") format("truetype");
+}
+@font-face {
+    font-family:"Roboto";
+    src: url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+}
+
+.logo
+{
+    font-family: "Carter One",cursive;
+}
+
+.container{
+    width: 900px;
+}
+
+table,form{
+    background: #fff;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    /*font-family: "Montserrat";*/
+}
+button{
+    border:0 !important;
+    border-radius: 0 !important;
+}
+.custom-shadow{
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+.dataTables_filter {
+    /*width: 50%;*/
+    float: right;
+    text-align: left;
+}
+#example_paginate{
+    /*width: 50%;*/
+    float: right;
+    text-align: left;
+}
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 0;
+    top: 3em;
+    left: 0;
+    /*background-color: #111;*/
+    /*overflow-x: hidden;*/
+    /*padding-top: 36px;*/
+}
+.activePage{
+    background-color: #444;
+    color: #fff !important;
+}
+
+.sidenav a {
+    padding: 15px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #818181;
+    display: block;
+    border-bottom: 1px solid #ccc4;
+    font-weight: 700;
+}
+
+.sidenav a:hover {
+    color: #fff;
+    background: #555;
+}
+
+.sidebar_menu li{
+    list-style: none;
+}
+
+.main_section {
+    margin-top: 55px;
+    margin-bottom: 20px;
+    margin-left: 250px; /*!* Same as the width of the sidenav *!*/
+    font-size: 15px; /*Increased text to enable scrolling */
+    padding: 0px 25px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+    background-image: linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)) ,url(../../images/bookshelf3.jpg);
+    min-height: 700px;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-height: 450px) {
+    /*.sidenav {padding-top: 15px;}*/
+    .sidenav a {font-size: 18px;}
+}
+
+
+.bg-login {
+    background: linear-gradient(rgba(0, 0, 0, .50),rgba(0, 0, 0, .50) ),
+    url(../../images/bg-login.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dashbox {
+    min-height: 100px;
+    max-height: 150px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.dashboxtext{
+    /* margin: 25%; */
+    top: 40%;
+    left: 40%;
+    position: absolute;
+}
+.qty{
+    font-size: 18px;
+}
+
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding: 10px;
+  width: 100%;
+  background-color: #222;
+  color: white;
+  text-align: center;
+  z-index: 10000;
+}
+
+.m-height200{
+    min-height: 200px;
+}
