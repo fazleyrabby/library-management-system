@@ -1,6 +1,6 @@
 
 <footer>
-		<?=date('Y')?> &copy;
+		<?=date('Y')?> &copy; Fazley Rabbi
 </footer>
 
 
@@ -15,7 +15,7 @@
     });
 </script>
 
-  <script>
+<script>
 $('.datepicker').datepicker({
     format: 'yyyy-mm-dd',
     todayBtn	:false,
@@ -23,4 +23,4 @@ $('.datepicker').datepicker({
 	defaultViewDate	:'today'
 
 });
-    </script>
+</script>
