@@ -1,7 +1,7 @@
 # library-management-system
 Library Management System created for DBMS course in my university. I have used simply Raw PHP &amp; MYSQL.
 
-Create a database named library and import sql from db_import folder named 'dump-library-202111100034.sql' <br>
+Create a database named 'library' and import .sql file from db_import folder named 'dump-library-202111100034.sql' <br>
 After that you can login with credentials below <br>
 
 **Login** Credentaials:
