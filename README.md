@@ -6,6 +6,8 @@ Library Management System created for DBMS course in my university. I have uses 
 ![bookadd](https://user-images.githubusercontent.com/26044286/140975684-8658ef1a-8bcf-490b-87a5-26ad99ba60c7.png)
 ![borrowIssue](https://user-images.githubusercontent.com/26044286/140975688-e94598db-c079-40ed-a0a7-5f65db55ad58.png)
 
+Create a database named library and import sql from db_import folder named 'dump-library-202111100034.sql'
+After that you can login with credentials below <br>
 
 **Login** Credentaials:
 <table>
